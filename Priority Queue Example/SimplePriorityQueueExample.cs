@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Priority_Queue;
 
 namespace Priority_Queue_Example
 {
-    public static class SimplePriorityQueueExample
+   public static class SimplePriorityQueueExample
     {
         public static void RunExample()
         {

@@ -3,19 +3,17 @@ using Priority_Queue;
 
 namespace Priority_Queue_Example
 {
-    class Program
-    {
+   class Program
+   {
+      static void Main(string[] args)
+      {
+         FastPriorityQueueExample.RunExample();
 
+         Console.WriteLine("------------------------------");
 
-        static void Main(string[] args)
-        {
-            FastPriorityQueueExample.RunExample();
+         SimplePriorityQueueExample.RunExample();
 
-            Console.WriteLine("------------------------------");
-
-            SimplePriorityQueueExample.RunExample();
-
-            Console.ReadKey();
-        }
-    }
+         Console.Read();
+      }
+   }
 }

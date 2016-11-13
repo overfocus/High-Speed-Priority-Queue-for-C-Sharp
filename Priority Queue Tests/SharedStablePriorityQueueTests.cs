@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using NUnit.Framework;
-using Priority_Queue;
 
 namespace Priority_Queue_Tests
 {
-    //Not sure how else to share these tests between StablePriorityQueueTests and SimplePriorityQueueTests.  Using inheritance like the other tests would
-    //require multiple inheritance..
-    public static class SharedStablePriorityQueueTests
+   //Not sure how else to share these tests between StablePriorityQueueTests and SimplePriorityQueueTests.  Using inheritance like the other tests would
+   //require multiple inheritance..
+   public static class SharedStablePriorityQueueTests
     {
         public static void TestOrderedQueue(Action<Node> enqueue, Func<Node> dequeue)
         {
